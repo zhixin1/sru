@@ -13,8 +13,10 @@ SRU can be installed as a regular package via `python setup.py install` or `pip 
 ## Directly use the source without installation:
 Make sure this repo and CUDA library can be found by the system, e.g.
 
-`export PYTHONPATH=path_to_repo/sru`
-`export LD_LIBRARY_PATH=/usr/local/cuda/lib64`
+```
+export PYTHONPATH=path_to_repo/sru
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+```
 
 # Examples
 The usage of SRU is similar to nn.LSTM. SRU likely requires more stacking layers than LSTM. We recommend starting by 2 layers and use more if necessary (see our report for more experimental details).
