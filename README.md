@@ -4,6 +4,7 @@ Adjust SRU (simple recurrent unit) to be compatible with pytorch >=1.9. The adju
 # Requirements
 PyTorch >=1.9 recommended
 ninja
+
 Install requirements via 'pip install -r requirements.txt'
 
 # Installation
