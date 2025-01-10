@@ -1,5 +1,6 @@
 # About
-Adjust SRU (simple recurrent unit) to be compatible with pytorch >=1.9. The adjustments are based on the sru repository: https://github.com/asappresearch/sru.git for paper [Training RNNs as Fast as CNNs](https://arxiv.org/abs/1709.02755). Main checks and changes are deprecated functions, torch.cuda API, autograd and optimizers.
+Adjust SRU (simple recurrent unit) to be compatible with pytorch >=1.9. The adjustments are based on the sru repository: https://github.com/asappresearch/sru.git for paper [Training RNNs as Fast as CNNs](https://arxiv.org/abs/1709.02755). 
+Main checks and changes are deprecated functions, torch.cuda API, autograd and optimizers.
 
 # Requirements
 PyTorch >=1.9 recommended
